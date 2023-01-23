@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador - Alura</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="imagenes/Vector.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <img src="imagenes/Vector.png" alt="Logo Alura" class="img_logo">
+    </header>
+    
+    <main>
+        
+        <seccion class="seccion-principal-1">
+                <textarea class="text-area" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar">Encriptar</button>
+                    <button class="btn-desencriptar">Desencriptar</button>
+                </div>
+        </seccion>
+
+        <section class="seccion-principal-2">
+            <div class="contenedor-muneco">
+                <img src="imagenes/Muneco.png" alt="Persona con lupa">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="contenedor-resultado">
+                <!-- <textarea name="" id="" cols="30" rows="10" class="resultado" id="copiarMensaje"></textarea> -->
+                <p class="resultado" id="copiarMensaje"></p>
+                <button class="btn-copiar" id="copiarA">Copiar</button>
+            </div>
+        
+        </section>
+    </main>
+
+    <footer>
+        
+        <div class="pie-de-pagina">
+            
+            <div class="titulo-pie">
+                <h3>© Copyright 2023- Alura Latam - Desarrollado por Hans Dussich</h3>
+            </div>
+            
+            <div class="social">        
+                <a href="https://github.com/HansDussich" target="_blank">
+                    <img src="imagenes/github.png" alt="logo de gitHub"> 
+                </a>
+                <a href="https://www.linkedin.com/in/hans-dussich-945507227/" target="_blank">
+                    <img src="imagenes/linkedin.png" alt="logo de linkendin">
+                    
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
