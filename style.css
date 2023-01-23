@@ -41,7 +41,7 @@ main{
 }
 .contenedor-muneco img{
     padding-top: 100px;
-
+    width: 300px;
 }
 
 .contenedor-muneco h3{
@@ -179,5 +179,41 @@ footer{
 
 .social img{
     width: 50px;
+
+}
+
+@media screen and (max-width: 940px) {
+    main{
+        display: block;
+    }
+    .seccion-principal-1,
+    .seccion-principal-2{
+        width: 80% ;
+    }
+    .seccion-principal-2{
+        margin-top: 50px;
+    }
+    .pie-de-pagina{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .botones{
+        display: block;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar{
+        margin: 10px;
+    }
+    .titulo-pie,
+    .social{
+        width: 100%;
+    }
 
 }
