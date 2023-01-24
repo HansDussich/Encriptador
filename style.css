@@ -76,6 +76,7 @@ main{
     margin-top: 90px;
     text-transform: lowercase;
     height: 400px;
+    resize: none;
 }
 .text-area::placeholder{
     color: #00ADB5;
